@@ -15,7 +15,7 @@ class Extension {
     }
 
     enable() {
-        this.settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.happy-appy-hotkey');
+        this.settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.happy-appy-hotkey-backport');
         this.settingId = this.settings.connect('changed', () => this.initSettings());
         this.initSettings();
         this.tracker = Shell.WindowTracker.get_default();

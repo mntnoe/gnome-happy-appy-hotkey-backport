@@ -1,6 +1,6 @@
 <schemalist>
-    <schema id="org.gnome.shell.extensions.happy-appy-hotkey"
-        path="/org/gnome/shell/extensions/happy-appy-hotkey/">
+    <schema id="org.gnome.shell.extensions.happy-appy-hotkey-backport"
+        path="/org/gnome/shell/extensions/happy-appy-hotkey-backport/">
         <key type="i" name="number">
             <default>0</default>
             <summary>Number of active hotkeys</summary>

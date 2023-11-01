@@ -7,7 +7,7 @@ const hotkeyHandles = []
 function init() { }
 
 function fillPreferencesWindow(win) {
-    const settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.happy-appy-hotkey');
+    const settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.happy-appy-hotkey-backport');
 
     addAppHotkeyPage(win, settings);
     addMiscHotkeyPage(win, settings);

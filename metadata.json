@@ -1,10 +1,10 @@
 {
-  "name": "Happy Appy Hotkey",
-  "description": "Assign hotkeys to applications to give them focus or launch them\n\nFeatures:\n- Assign a hotkey to an app to:\n-- Give it focus if it's already running, or\n-- Launch it if it's not.\n- Assign a hotkey to cycle through all the apps that don't have a hotkey\n- Supports Wayland",
-  "uuid": "happy-appy-hotkey@jqno.nl",
-  "url": "https://github.com/jqno/gnome-happy-appy-hotkey/",
+  "name": "Happy Appy Hotkey (backport)",
+  "description": "Backported to Gnome 42.\n\nAssign hotkeys to applications to give them focus or launch them\n\nFeatures:\n- Assign a hotkey to an app to:\n-- Give it focus if it's already running, or\n-- Launch it if it's not.\n- Assign a hotkey to cycle through all the apps that don't have a hotkey\n- Supports Wayland",
+  "uuid": "happy-appy-hotkey-backport@madsnavntoft.dk",
+  "url": "https://github.com/mntnoe/gnome-happy-appy-hotkey-backport/",
   "version": 1,
   "shell-version": [
-    "44"
+    "42"
   ]
 }
